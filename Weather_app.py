@@ -19,7 +19,7 @@ class WeatherApp(QWidget):
         pixmap = QPixmap("Python-Projects\\background_weather.png")
         label.setPixmap(pixmap)
         label.setScaledContents(True)
-
+             
         self.initUI()
     
 
